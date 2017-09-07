@@ -5,17 +5,56 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title></title>
     <script src="js/mui.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/mui.min.css" rel="stylesheet"/>
-    <style>
-        
-    </style>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/app/home.css" rel="stylesheet"/>
 </head>
 <body>
-  <div>主页</div>
+  <header class="mui-bar mui-bar-nav">
+    <div class='mui-input-row'> 
+      <i class='fa fa-search'></i>
+      <input class='search-inp mui-input-clear' type='text' placeholder="搜索感兴趣的圈子"/>
+    </div> 
+    <a class='create-btn' id='create'>创建</a>
+  </header>
+  <div class='banner-wrap'>
+    <div class="mui-slider" id='banner'>
+      <div class="mui-slider-group mui-slider-loop">
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./img/banner4.jpeg" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./img/banner1.jpeg" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="http://7j1xky.com2.z0.glb.qiniucdn.com/banner3.jpeg" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./img/banner2.jpeg" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./img/banner4.jpeg" /></a></div>
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./img/banner1.jpeg" /></a></div>
+      </div>
+      <div class="mui-slider-indicator">
+        <div class="mui-indicator mui-active"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+      </div>
+    </div>
+    <div class='banner-bg'></div>
+  </div>
+  <hr class='split-line'/>
+  <div class='support-wrap'>
+    <div class='head'>
+      <i class='fa fa-support support'>圈子推荐</i>
+      <a class='change' id='changePage'>换一换<i class='mui-icon mui-icon-loop'></i></a>
+      <div class='lists'>
+         <div class="mui-slider" id='supportGroup'>
+          <div class="mui-slider-group" id='group'>
+            <!--圈子推荐-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='hide'></div>
+  </div>
+  <iframe class='footer' src="footer.html?location=home" width="100%" height="50px" scrolling="no"></iframe> 
 </body>
-<script type="text/javascript" charset="utf-8">
-  mui.init();
-  mui.plusReady(function(){
-  });
-</script>
+<script src='js/jquery.js'></script>
+<script src="js/util.js"></script>
+<script src="js/app/home.js"></script>
 </html>

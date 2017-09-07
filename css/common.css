@@ -1,0 +1,34 @@
+.mui-bar-nav{
+  background:#ebc52f;
+}
+.split-line{
+  margin-top: 2%;
+  height: 0.7rem;
+  background: #f1f1f1;
+  border: none;
+}
+img{
+  width:100%;
+}
+li{
+  list-style: none;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  border: none;
+  border-top: 1px solid #dadada;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 9999;
+}
+.mui-action-back{
+  color: #333;
+}
+body{
+  background:#fff;
+}
+.disabled-btn{
+  background: #dadada;
+  color:#999;
+}

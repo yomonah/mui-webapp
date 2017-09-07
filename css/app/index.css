@@ -1,0 +1,88 @@
+.welcome-wrap .welcome-bg{
+  width:100%;
+  animation: showbg 1s ease-in-out;
+  animation-iteration-count:1;
+  -webkit-animation: showbg 1s ease-in-out;
+  -webkit-animation-iteration-count:1;
+  opacity:0.6;
+}
+@keyframes showbg{
+  0%{opacity:0};
+  100%{opacity:0.6};
+}
+.welcome-wrap .logo{
+  position: fixed;
+  top: 20%;
+  opacity: 0.8;
+  left: 37.5%;
+  margin: 0 auto;
+  display: block;
+  width: 25%;
+  animation: showlogo 0.8s ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  -webkit-animation: showlogo 0.8s ease-in-out;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode: forwards;
+  transform:scale(0,0); 
+}
+@keyframes showlogo{
+  0%{transform:scale(0,0);}
+  100%{transform:scale(1,1); }
+}
+.welcome-wrap .title{
+  position: fixed;
+  left: 40%;
+  width: 20%;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  animation: showtitle 0.5s ease-in-out;
+  animation-delay: 1.8s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  -webkit-animation: showtitle 0.5s ease-in-out;
+  -webkit-animation-delay: 1.8s;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode: forwards;
+}
+@keyframes showtitle{
+  0%{top:40%;opacity:0;}
+  100%{top:37%;opacity:1}
+}
+.end-text{
+  position: fixed;
+  top: 78%;
+  left: 32%;
+  width:0%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: showend 1s ease-in-out;
+  animation-delay: 2.3s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  -webkit-animation: showend 1s ease-in-out;
+  -webkit-animation-delay: 2.3s;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode: forwards;  
+}
+@keyframes showend{
+  0%{width:0%;color:#333}
+  100%{width:40%;color:#946d6d;opacity:0.8;}
+}
+body{
+  animation: hidebody 0.5s ease-in-out;
+  animation-delay: 3.3s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;  
+  -webkit-animation: hidebody 0.5s ease-in-out;
+  -webkit-animation-delay: 3.3s;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode: forwards;  
+}
+@keyframes hidebody{
+    0%{opacity:1}
+    100%{opacity:0}
+}

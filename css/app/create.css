@@ -1,0 +1,58 @@
+.create-form{
+  margin-top: 6rem;
+}
+.uploadImg{
+  text-align: center;
+}
+.uploadImg img{
+  width: 30%;
+  height: 7rem;
+}
+.fa-pencil{
+  position: relative;
+  top: 5.5rem;
+  left: -2rem;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(235,197,47,0.8);
+}
+.mui-input-group{
+  margin-top: 2rem;
+  padding: 0 14%;
+}
+.mui-input-group .fa{
+  display: inline-block;
+  color:#999;
+}
+.mui-input-group .mui-input-row{
+  margin: 10px 0px;
+}
+.mui-input-group .mui-input-row:after{
+  left: 0;
+}
+.mui-input-group:before, .mui-input-group:after{
+  background-color:rgba(0,0,0,0);
+}
+.mui-input-group input{
+  font-size: 0.8rem;
+  width: 80%;
+}
+.mui-input-group .input-area{
+  font-size: 0.8rem;
+  background: #fbfbfb;
+  height: 5.5rem;
+  margin-top: 10px;
+}
+.create-btn{
+  display: block;
+  margin: 0 auto;
+  width: 72%;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 0;
+  background:#ebc52f;
+  color:#333;
+}

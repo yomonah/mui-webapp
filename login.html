@@ -7,71 +7,7 @@
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
-    <style>
-        body{
-          animation: showlogin 0.5s ease-in-out;
-          animation-iteration-count:1;
-          animation-fill-mode: forwards;
-          -webkit-animation: showlogin 0.5s ease-in-out;
-          -webkit-animation-iteration-count:1;
-          -webkit-animation-fill-mode: forwards;
-        }
-        @keyframes showlogin{
-          0%{opacity:0}
-          100%{opacity:1}
-        }
-        .login-wrap .login-bg{
-          width: 100%;
-          filter:blur(3px);
-        }
-        .login-content{
-          position: fixed;
-          top: 17%;
-          width: 100%;
-          text-align: center;
-          padding: 0 10%;
-        }
-        .login-content img{
-          width: 20%;
-          border-radius: 100px;
-          opacity: 0.8;
-          margin-bottom: 10%;
-        }
-        .login-content .mui-input-row{
-          border-bottom: 1px solid #c7bdbd;
-          margin-bottom: 5%;
-        }
-        .login-content .mui-input-row input{
-          width: 75%;
-          margin: 0;
-          border: none;
-          background: none;
-        }
-        .login-content .mui-input-row label{
-          width: 20%;
-          display: inline-block;
-          text-align: left;
-          font-size: 0.8rem;
-          color: #909090;
-          padding: 10px 2px;
-        }
-        .mui-input-group{
-          border: none;
-          background: none;
-        }
-        .mui-input-group:after{
-          background: none;
-        }
-        .btn{
-          margin-top: 1.6rem;
-          width: 100%;
-          border-radius: 20px;
-          background: #ebc52f;
-          border: none;
-          color: #fff;
-          height: 2.5rem;
-        }
-    </style>
+    <link href="css/app/login.css" rel="stylesheet"/>
 </head>
 <body>
   <div class='login-wrap'>
@@ -93,23 +29,6 @@
   </div>
 </body>
 <script src="js/jquery.js"></script>
-<script src="js/app/util.js"></script>
-<script type="text/javascript" charset="utf-8">
-  mui.init();
-  mui.plusReady(function(){
-    
-  });
-  $("#submit").off("tap").on("tap", function(e){
-    var username = $("#username").val(),
-        psw = $("#password").val();
-    if(!username || !psw){
-      plus.nativeUI.toast("用户名和密码不能为空");
-    }else{
-      debugger
-      localStorage.setItem('user',username);
-      localStorage.setItem('isLogin',true);
-      APP_UTILS.go('home.html','home.html');
-    }
-	});
-</script>
+<script src="js/util.js"></script>
+<script src="js/app/login.js"></script>
 </html>

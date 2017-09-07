@@ -1,0 +1,149 @@
+body{
+  background: #fff;
+}
+input.search-inp{
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  padding-bottom: 1.1rem;
+  margin-left: 20px;
+}
+.mui-input-row{
+  width: 80%;
+  height: 2rem;
+  border: none;
+  border-radius: 20px;
+  margin-top: 0.4rem;
+  background: #fff !important;
+  display: inline-block;
+}
+.mui-icon-clear{
+  top:-5px !important;
+}
+.fa-search{
+  position: absolute;
+  top: 0.4rem;
+  left: 0.8rem;
+  color: #999;
+}
+.create-btn{
+  font-size: 0.8rem;
+  position: relative;
+  top: 0rem;
+  left: 1rem;
+  color: #9a833e;
+}
+.mui-indicator{
+  box-shadow: none !important;
+  -webkit-box-shadow:none !important;
+}
+.mui-slider-indicator .mui-active{
+  background:#ebc52f !important;
+}
+.banner-wrap{
+  margin-top: 11.5%;
+  background:#ebc52f;
+}
+.banner-wrap .mui-slider .mui-slider-group{
+  left: 5.8%;
+}
+.banner-wrap .mui-slider .mui-slider-item{
+  width: 88%;
+  margin: 0 1.2%;
+  box-shadow: 0px 3px 3px #afabab;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.banner-wrap .banner-bg{
+  width: 100%;
+  background: #fff;
+  height: 27%;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: 4rem;
+}
+.mui-bar-nav{
+  box-shadow:none;
+}
+.support-wrap{
+  margin: 5% 3% 10% 3%;
+}
+.support{
+  font-size: 16px;
+}
+.support:before{
+  color: #fff;
+  background: #ebc52f;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.change{
+  font-size: 13px;
+  color: #999;
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.mui-icon-loop{
+  margin-left: 5.5%;
+  font-size: 15px;
+}
+.support-wrap .lists{
+  margin-top: 5%;
+  text-align: center;
+}
+.support-wrap .lists li{
+  display: inline-block;
+  width: 48%;
+  height: 19.5rem;
+  overflow: hidden;
+}
+.lists .odd{
+  margin-right: 1%;
+}
+.lists .img-wrap{
+  height: 12.6rem;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.lists .title{
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0px;
+  color: #333;
+}
+.lists .host{
+  display: block;
+  font-size: 13px;
+  width: 100%;
+  color: #999;
+  margin: 0 0 5px 0;
+}
+.lists .join{
+  background: #ebc52f;
+  border: none;
+  color: #fff;
+  width: 50%;
+  border-radius: 50px;
+}
+.lists .certification{
+  background: #FFEB3B;
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  font-style: normal;
+  color: #ebc52f;
+  border: 1px solid #ebc52f;
+  line-height: 15px;
+  margin-left: 2px;
+}
+.support-wrap .hide{
+  width: 94%;
+  height: 40rem;
+  position: absolute;
+  top: 47%;
+  z-index: 1;
+}

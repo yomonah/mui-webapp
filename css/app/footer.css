@@ -1,0 +1,21 @@
+.footer-wrap{
+  display: flex;
+  padding-top: 0.5rem;
+  background: #fff;
+  height: 50px;
+}
+.footer-wrap li{
+  width: 25%;
+  text-align: center;
+  color:#999;
+}
+.footer-wrap .active{
+  color:#ebc52f;
+}
+.footer-wrap li .fa{
+  display: block;
+}
+.footer-wrap li span{
+  font-size: 0.8rem;
+}
+  
